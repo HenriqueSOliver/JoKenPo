@@ -1,0 +1,100 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    cursor: default;
+}
+
+#principal{
+    list-style: none;
+}
+
+#titulo{
+    text-align: center;
+    color: #2d3436;
+}
+
+#placar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogador, #computador{
+    position: relative;
+    flex-grow: 1;
+    height: 200px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px;
+}
+
+#jogador h2, #computador h2{
+    margin: 0;
+    padding: 0;
+}
+
+#jogador {
+    background-color:#c75144;       
+}
+
+#jogador-nome, #computador-nome{
+    font-size: 24px;
+}
+
+#computador-nome{
+    text-align:right;
+}
+
+#jogador-pontos, #computador-pontos{
+    position: absolute;
+    top: 8px;
+    font-size: 52px;
+}
+
+#jogador-pontos, #computador-pontos{
+    right: 20px;
+}
+
+#jogador #jogador-escolha, #computador #computador-escolha{
+    list-style: none;
+    text-align: center;
+    margin: 30px 0 0;
+    padding: 0;
+}
+
+#jogador #jogador-escolha li, #computador #computador-escolha li{
+    display: inline;
+    padding: 0 15px;
+}
+#jogador #jogador-escolha a, #computador #computador-escolha a{
+    opacity: .2;
+}
+
+#jogador #jogador-escolha a:hover, #computador #computador-escolha a:hover,
+#jogador #jogador-escolha a.selecionado, #computador #computador-escolha a.selecionado{
+    opacity: 1;
+}
+
+#jogador #jogador-escolha img, #computador #computador-escolha img {
+    max-width: 80px;
+}
+
+#versus {
+    font-size: 80px;
+    padding: 0 40px;
+}
+
+#computador{
+    background-color: #3498db;
+}
+
+#mensagem{
+    background-color: #434444;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center; 
+    margin: 20px 0;
+    padding: 20px 0;  
+}
+
